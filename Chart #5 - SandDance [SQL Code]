@@ -1,0 +1,5 @@
+SELECT [Product_Category],
+       [Payment_Method],
+       AVG(Total_Revenue) AS Avg_Revenue
+FROM [Online Sales Data].[dbo].[Online Sales Data]
+ORDER BY [Product_Category], [Payment_Method];
